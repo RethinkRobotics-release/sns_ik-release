@@ -1,0 +1,12 @@
+Source: ros-kinetic-sns-ik
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/sns_ikl
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-sns-ik
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-sns-ik-examples, ros-kinetic-sns-ik-lib
+Description: Metapackage for the Saturation in the Null Space (SNS) Inverse Kinematic Library.
