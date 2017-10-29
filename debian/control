@@ -1,0 +1,13 @@
+Source: ros-kinetic-sns-ik-lib
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-kinetic-catkin, ros-kinetic-kdl-parser, ros-kinetic-orocos-kdl, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/sns_ikl
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-sns-ik-lib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-orocos-kdl, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Description: Saturation in the Null Space (SNS) Inverse Kinematic Library.
+ SNS is a real-time Cartesian IK solver for uses the redundancy in the supplied kinematic chain for collision avoidance, joint motion optimization, or additional task objectives or soft constraints.
